@@ -18,13 +18,11 @@ public:
         l[v].push_back(u);
 
     }
-
     bool isCycleUndirBFS(int src, vector<bool> &vis){
         queue<pair<int, int>>q;
 
         q.push({src, -1});
         vis[src]= true;
-
         while(q.size()> 0){
             int u = q.front().first;
             int parU = q.front().second;
