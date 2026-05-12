@@ -62,6 +62,77 @@ Important Points:
 5. Inheritance supports code reusability.
 */
 
+
+/*
+1. Single Inheritance
+One child class inherits one parent class.
+
+class Animal {
+};
+
+class Dog : public Animal {
+};
+*/
+
+/*
+2. Multiple Inheritance
+One child class inherits multiple parent classes.
+
+class Teacher {
+};
+
+class Researcher {
+};
+
+class Professor : public Teacher, public Researcher {
+};
+*/
+
+/*
+3. Multilevel Inheritance
+A derived class becomes base class for another class.
+
+class Animal {
+};
+
+class Dog : public Animal {
+};
+
+class Puppy : public Dog {
+};
+*/
+
+/*
+4. Hierarchical Inheritance
+Multiple child classes inherit one parent class.
+
+class Shape {
+};
+
+class Circle : public Shape {
+};
+
+class Rectangle : public Shape {
+};
+*/
+
+/*
+5. Hybrid Inheritance
+Combination of multiple inheritance types.
+
+class Animal {
+};
+
+class Mammal : public Animal {
+};
+
+class Bird {
+};
+
+class Bat : public Mammal, public Bird {
+};
+*/
+
 #include<iostream>
 #include<string>
 using namespace std;
@@ -102,3 +173,4 @@ int main(){
     s1.getInfo();
     return 0;
 }
+
