@@ -20,8 +20,8 @@ class Teacher{
     string dept;
     string subject;
 
-    //constructor : always public and has the same name as the class and 
-    // memory is allocated when the object is created
+ //constructor : always public and has the same name as the class and 
+// memory is allocated when the object is created
 
 /*
 Non-parameterized constructor : It is a constructor that does not take any parameters. It is also known as default constructor. It is used to initialize the data members with default values.
@@ -31,6 +31,17 @@ Teacher(){
     dept = "Unknown";
     subject = "Unknown";
     salary = 0;
+}
+*/
+
+/*
+Copy constructor : It is a constructor that takes an object of the same class as a parameter. It is used to create a new object as a copy of an existing object.
+example:
+Teacher(Teacher &t){
+    name = t.name;
+    dept = t.dept;
+    subject = t.subject;
+    salary = t.salary;
 }
 */
 
