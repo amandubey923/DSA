@@ -28,29 +28,29 @@ public:
         }
     }
 
-       //BFS traversal
-    void bfs(){
-        queue<int> Q;
-        vector<bool> visited(V, false);
+    //    //BFS traversal
+    // void bfs(){
+    //     queue<int> Q;
+    //     vector<bool> visited(V, false);
 
-        Q.push(0); // source node
-        visited[0] = true;
+    //     Q.push(0); // source node
+    //     visited[0] = true;
 
-        while(Q.size()>0){
-            int u = Q.front(); // u->v
-            Q.pop();
+    //     while(Q.size()>0){
+    //         int u = Q.front(); // u->v
+    //         Q.pop();
 
-            cout<<u<<" ";
+    //         cout<<u<<" ";
 
-            for(int v: l[u]){  // v -> immediate neigh of u
-                if(!visited[v]){
-                    visited[v] = true;
-                    Q.push(v);
-                }
-            }
-        }
-        cout<<endl;
-    }
+    //         for(int v: l[u]){  // v -> immediate neigh of u
+    //             if(!visited[v]){
+    //                 visited[v] = true;
+    //                 Q.push(v);
+    //             }
+    //         }
+    //     }
+    //     cout<<endl;
+    // }
     //DFS Traversal
     void dfsHelper(int u , vector<bool> &visited){
         cout<< u <<"";
@@ -83,8 +83,8 @@ int main(){
     cout<<"DFS Traversal: ";
     g.dfs();
 
-    cout<<"BFS Traversal: ";
-    g.bfs();
+    // cout<<"BFS Traversal: ";
+    // g.bfs();
 
     return 0;   
 }
