@@ -18,7 +18,6 @@ public:
         l[v].push_back(u);
 
     }
-
     void printAdjList(){
         for(int i=0; i<V; i++){
             cout<<i<<":";
