@@ -49,14 +49,8 @@ public:
                 cout<< rank[i] <<" ";
             }
             cout<< endl;
-
     }
-
-
-
 };
-
-
 int main(){
     DisjointSetUnion dsu(6);
 
