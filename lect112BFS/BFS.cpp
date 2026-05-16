@@ -31,7 +31,7 @@ public:
     void bfs(){
         queue<int> Q;
         vector<bool> visited(V, false);
-
+        
         Q.push(0); // source node
         visited[0] = true;
 
