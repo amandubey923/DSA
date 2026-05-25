@@ -12,7 +12,6 @@ bool isSorted(vector<int>  arr, int n){
 
 int main(){
 vector<int> arr={5,3,2,1,4};
-
 cout<<isSorted(arr,arr.size())<<endl;
 
     return 0;
