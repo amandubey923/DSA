@@ -46,8 +46,5 @@ int main(){
         cout<<path<<endl;
          
     }
-
-
-
     return 0;
 }
