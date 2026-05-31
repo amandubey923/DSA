@@ -18,7 +18,6 @@ int reccurBinarySearch(const vector<int>& arr, int tar, int st, int end) {
     }
     return -1; // Not found
 }
-
 int main() {
     vector<int> arr1 = {-1, 0, 3, 4, 5, 9, 12}; // Odd-sized array
     int tar1 = 12;
