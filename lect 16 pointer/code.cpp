@@ -14,10 +14,5 @@ int main(){
   cout<< **(parPtr)<<endl;
   cout<< *(&a)<<endl;
   cout<< (ptr)<<endl;
-
-
-
-
-
     return 0;
 }
