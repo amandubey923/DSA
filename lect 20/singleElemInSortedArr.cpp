@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-
 using namespace std;
 
 class Solution {
@@ -34,7 +33,6 @@ public:
         return -1;
     }
 };
-
 int main() {
     Solution sol;
     vector<int> A = {1, 1, 2, 2, 3, 3, 4, 5, 5};
