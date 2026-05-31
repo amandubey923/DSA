@@ -41,7 +41,6 @@ int allocateBooks(vector<int> &arr, int n, int m) {
     }
     return ans;
 }
-
 int main() {
     vector<int> arr = {15, 17, 20};
     int n = arr.size(), m = 2; // Fix the value of 'n' to match the array size

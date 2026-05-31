@@ -22,11 +22,11 @@ int allocateBooks(vector<int> &arr, int n, int m){
     if(m>n){
         return -1;
     }
-
     int sum = 0;
     for(int i=0; i<n; i++){
         sum += arr[i];
     }
+    
     int ans= -1;
     int st=0 , end =sum;  //range of possible ans
     while(st<=end){
