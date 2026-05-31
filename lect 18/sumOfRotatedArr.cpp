@@ -1,8 +1,6 @@
 #include <iostream>
 #include <vector>
-
 using namespace std;
-
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -14,7 +12,6 @@ public:
             if (nums[mid] == target) {
                 return mid;
             }
-
             // Left half is sorted
             if (nums[st] <= nums[mid]) { 
                 if (nums[st] <= target && target <= nums[mid]) {
